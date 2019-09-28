@@ -1,7 +1,7 @@
 # Radial Analytics - Coding Exercise
-Python script that works in the following criteria:
+This Python script works in the following criteria:
 
- - Use a single file from the Hospital Compare dataset as your input: “Hospital General Information.csv”. 
+ - Uses a single file from the Hospital Compare dataset as input: “Hospital General Information.csv”. 
 	 - Assumes that this file is present in the same directory as the code itself.
 - Generates a single comma-separated value file as output, named “hospitals_by_county.csv” containing the following fields:  
 	- county_state
@@ -15,10 +15,11 @@ Python script that works in the following criteria:
 User Guide:
 --------
 
- 1. This python script requires the 'pandas' library to be installed.
-	 -	In order to install pandas, you can run the command: 'pip3 install pandas' in your preferred command line interface.
+ 1. This python script requires the **'pandas'** library to be installed.
+	 - In order to install pandas, you can run the command: **'pip3 install pandas'** in your preferred command line interface.
  2. CD to the directory where this project is cloned or downloaded.
  3. Run the script by running the command: 'Python3 RadialSolution.py'
+ 4. You can find the output file named "hospitals_by_county.csv" in the same directory as the script.
 
 
 Note:
