@@ -10,7 +10,7 @@ def strip_header():
 
         next(r)
 
-        w.writerow(['Provider ID', 'Hospital Name', 'Address', 'City', 'State', 'ZIP Code',
+        w.writerow(['ProviderID', 'HospitalName', 'Address', 'City', 'State', 'ZIPCode',
                     'CountyName', 'PhoneNumber', 'HospitalType', 'HospitalOwnership',
                     'EmergencyServices', 'MeetscriteriaformeaningfuluseofEHRs',
                     'Hospitaloverallrating', 'Hospitaloverallratingfootnote',
